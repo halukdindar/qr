@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kafe Menüsü</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="btn-group d-flex flex-wrap">
+            <button type="button" class="btn btn-primary" onclick="showContent('coldDrinks')">Soğuk İçecekler</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('tropicalDrinks')">Tropical İçecekler</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('sodas')">Gazlı İçecekler</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('fruitJuices')">Meyve Suları</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('hotDrinks')">Sıcak İçecekler</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('snacks')">Ara Yemek</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('mainDishes')">Ana Yemek</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('steak')">Biftek</button>
+            <button type="button" class="btn btn-primary" onclick="showContent('chicken')">Tavuk</button>
+        </div>
+
+        <div class="content mt-3" id="content">
+            <!-- İçerikler buraya eklenecek -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
